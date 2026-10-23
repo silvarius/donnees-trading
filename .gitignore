@@ -1,0 +1,11 @@
+# Tout est ignoré par défaut (données, exports, sorties) ; on ne suit que la liste blanche ci-dessous.
+*
+!.gitignore
+!CHANGELOG.md
+!scripts/
+!scripts/**
+!.claude/
+.claude/*
+!.claude/skills/
+!.claude/skills/**
+__pycache__/
